@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  font-family: 'Georgia', serif;
+}
+
+.card {
+  width: 150px;
+  height: 200px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+}
+
+#playing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.top-left, .bottom-right {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.top-left {
+  text-align: left;
+}
+
+.bottom-right {
+  text-align: left;
+  transform: rotate(180deg);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  line-height: 0.7;
+}

@@ -1,0 +1,21 @@
+h1{
+    color: blue;
+    font-size: 30px;
+}
+
+p{
+    color: green;
+}
+
+div{
+    background-color: aqua;
+    height: 20s;
+    width: 75px;
+    border: 10px;
+    border-color: black;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+}
