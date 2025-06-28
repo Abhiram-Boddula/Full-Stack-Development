@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-Listeners</title>
+</head>
+<body>
+    <div id="abc" style="width:100px; height:100px; background-color: lightblue;"></div><br>
+    <button id="click">click</button><br>
+    <h1 id="h1" style="color:red;">Event-Listeners</h1>
+    <script>
+        let a=document.getElementById("abc");
+        a.addEventListener("mouseenter",function() {
+            a.style.backgroundColor= "lightcoral";
+        });
+        a.addEventListener("mouseout",function() {
+            a.style.backgroundColor= "lightblue";
+        });
+        document.getElementById("click").addEventListener("click", function() {
+            alert("Button Was Clicked!");
+        });
+        let b=document.getElementById("h1");
+        b.addEventListener("mouseenter", function() {
+            b.style.color="black";
+        });
+        b.addEventListener("mouseout", function() {
+            b.style.color="red";
+        });
+    </script>
+</body>
+</html>
