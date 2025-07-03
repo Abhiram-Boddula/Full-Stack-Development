@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checklist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 0.5rem 1rem;
+            text-align: left;
+        }
+        th {
+            background: #f2f2f2;
+        }
+        label {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Checklist</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Click</th>
+                <th>Item</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" id="item1"></td>
+                <td><label for="item1">Buy groceries</label></td>
+                <td>Milk, Bread, Eggs</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="item2"></td>
+                <td><label for="item2">Workout</label></td>
+                <td>30 min run</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="item3"></td>
+                <td><label for="item3">Read book</label></td>
+                <td>Chapter 5</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="item4"></td>
+                <td><label for="item4">Call friend</label></td>
+                <td>Abhiram</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="item5"></td>
+                <td><label for="item5">Pay bills</label></td>
+                <td>Electricity, Internet</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
