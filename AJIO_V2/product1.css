@@ -1,0 +1,266 @@
+.blank {
+  height: 100px;
+}
+#container {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#address {
+  text-align: left;
+  font-size: 13px;
+  color: #58585a;
+}
+#product_detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#image_slider {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  justify-content: center;
+}
+.image_option {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid gray;
+}
+.image_option > img {
+  width: 98%;
+  max-height: 98%;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+.image_option:hover {
+  opacity: 0.5;
+}
+#image_window {
+  width: 40%;
+}
+.main_image {
+  height: 600px;
+  line-height: 600px;
+}
+.main_image img {
+  width: 100%;
+  max-height: 92%;
+  vertical-align: middle;
+}
+#product_description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+}
+.name {
+  color: #b69f7d;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.detail {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.price1 {
+  font-size: 24px;
+}
+.price_detail {
+  color: gray;
+  font-size: 12px;
+}
+#offers {
+  display: flex;
+  border: 1px dashed #b69f7d;
+  margin: 30px 0px 10px 0px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+.promo_title a,
+.promo_code_block a {
+  text-decoration: none;
+  color: #6388a9;
+}
+.promo_title {
+  color: #b69f7d;
+  font-size: 10px;
+  padding-right: 10px;
+  border-right: 1px solid black;
+}
+.promo_title > img {
+  width: 40px;
+  position: relative;
+  top: -90%;
+  margin-bottom: -40px;
+}
+.promo_code_block {
+  font-size: 15px;
+  text-align: left;
+  padding-left: 10px;
+  color: gray;
+}
+#more_offers a {
+  text-decoration: none;
+  color: #6388a9;
+}
+.size {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.sz {
+  width: 30px;
+  height: 30px;
+  margin: 0px 5px 0px 5px;
+  border-radius: 15px;
+  background-color: #2c4152;
+  color: white;
+  cursor: pointer;
+}
+.sz > p {
+  position: relative;
+  top: 10%;
+}
+#select_size {
+  margin-top: 20px;
+}
+.pincode_msg {
+  display: flex;
+  padding: 20px 0px 20px 0px;
+  margin: 20px 0px 0px 0px;
+  background-color: #fdf8eb;
+}
+.pincode_msg img {
+  width: 25px;
+  margin-right: 5px;
+}
+.pincode_msg div {
+  color: #6388a9;
+  font-size: 14px;
+}
+.add_to_bag {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px 0px 0px;
+  background-color: #d5a249;
+  padding: 20px 0px 20px 0px;
+  color: white;
+  cursor: pointer;
+}
+.go_to_bag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px 0px 0px 0px;
+  background-color: #d5a249;
+  padding: 20px 0px 20px 0px;
+  color: white;
+  cursor: pointer;
+}
+.save_to_closet {
+  display: flex;
+  justify-content: center;
+  color: #d5a249;
+  border: 1px solid #d5a249;
+  padding: 20px 0px 20px 0px;
+  cursor: pointer;
+  margin: 30px 0px 0px 0px;
+  visibility: hidden;
+}
+.add_to_bag img,
+.go_to_bag img,
+.save_to_closet img {
+  width: 5%;
+  margin-right: 10px;
+}
+#go_to_bag {
+  background-color: #74541e;
+  display: none;
+}
+.prod_tips {
+  font-size: 12px;
+  margin: 5px;
+  color: gray;
+}
+.prod_desc {
+  margin-top: 20px;
+  text-align: left;
+}
+.prod_desc h3 {
+  margin-left: 20px;
+  color: #406786;
+}
+.other-info-toggle {
+  color: #406786;
+  cursor: pointer;
+}
+#prod-list {
+  list-style: disc;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#prod-list li {
+  margin-bottom: 5px;
+}
+.shop_more {
+  margin: 20px 0px 20px 0px;
+  color: #58585a;
+}
+.shop_more > h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.shop_more > h2 span {
+  background: white;
+  padding: 0 10px;
+  font-weight: 550;
+}
+#more_menu {
+  display: flex;
+  margin: 30px 0px 30px 0px;
+  justify-content: space-around;
+}
+.more_menu_item {
+  width: 15%;
+  height: 80px;
+  background-color: #f8f8f8;
+}
+.more_menu_item > a {
+  position: relative;
+  top: 35%;
+  text-decoration: none;
+  font-size: 20px;
+}
+.more_menu_item > a > span {
+  color: #176d93;
+}
+#styles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 0px 40px 0px;
+}
+.more_styles {
+  width: 22%;
+}
+.more_styles img {
+  width: 70%;
+}
+.brand_name,
+.mrp {
+  color: #b69f7d;
+}
+.mrp1 {
+  text-decoration: line-through;
+}
+.mrp2 {
+  font-weight: 550;
+}

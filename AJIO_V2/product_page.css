@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* for complete page */
+.page-container{
+    top: 90px;
+    min-width: 1263px;
+    position: relative;
+}
+#page {
+    display: flex;
+    margin: auto;
+    min-width: 1200px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+
+/* for left side box */
+
+#left_side {
+    width: 20%;
+    min-width: 250px;
+    margin-top: 40px;
+    color: #2f4254;
+}
+
+#left_side>ul button {
+
+    background-color: white;
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+    margin: 3% 0;
+    cursor: pointer;
+    border: white;
+    content: none;
+    color: #2f4254;
+}
+
+#left_side button::before {
+    content: "\2b";
+    margin-right: 10px;
+}
+
+#left_side>ul>div>div {
+    margin-left: 20px;
+    /* margin-bottom: 10px; */
+}
+
+#left_side>ul>div>div>div>div {
+    margin-bottom: 10px;
+}
+
+
+/* for right side box */
+
+#right_side {
+    width: 80%;
+    min-width: 950px;
+}
+
+#right_side h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: .1px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+#right_side hr {
+    min-width: 400px;
+}
+
+#right_side>:nth-child(3) {
+    display: flex;
+    /* min-width: 950px; */
+    background-color: rgba(249, 249, 249, 255);
+    padding: 1%;
+    margin: 5px 0px;
+}
+
+#right_side>:nth-child(3)>div {
+    margin: 0px auto;
+}
+
+#right_side>:nth-child(3)>p {
+    color: #c2c2c2;
+}
+
+#right_side>:nth-child(3)>select {
+    margin: 0px 10px;
+    padding: 4px;
+    font-size: 12px;
+    color: #666666;
+    font-weight: bold;
+    outline: none;
+}
+
+#product_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+}
+
+#product_box>div {
+    cursor: pointer;
+    margin: 10px;
+}
+#product_box>div>img{
+width: 100%;
+}
+
+#product_box>div>div {
+    text-align: center;
+}
+
+#product_box>div>div {
+    font-family: 'Lora', serif;
+    font-size: 15px;
+}
+
+#product_box>div>div>p:nth-child(1) {
+    color: #c4b398;
+}
+
+#product_box>div>div>div>span:nth-child(2) {
+    text-decoration: line-through;
+}
+
+#product_box>div>div>div>span:nth-child(3) {
+    color: #c4b398;
+}
